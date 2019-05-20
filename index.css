@@ -127,3 +127,20 @@
     border-spacing: 0;
   }
   
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px; 
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background: forestgreen;
+    color: white;
+    padding: 25px;
+  }
