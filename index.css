@@ -130,11 +130,19 @@
   .navigation {
     display: flex;
     justify-content: space-around;
-    margin: 20px; 
+    margin: 10px; 
+    padding-top: 20px;
+    
   }
 
-  h1 {
-    font-size: 5rem;
+  .navigation a {
+    margin: 20px;
+    color: black;
+  }
+
+  .title {
+    font-size: 3rem;
+    color: forestgreen;
   }
 
   .footer {
@@ -143,4 +151,5 @@
     background: forestgreen;
     color: white;
     padding: 25px;
+    font-size: 1.8rem;
   }
