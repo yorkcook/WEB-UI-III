@@ -1,6 +1,6 @@
 .button {
-  background-color: yellow;
-  color: forestgreen;
+  background-color: #3F7A1A;
+  color: white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -141,7 +141,7 @@ table {
 }
 h2 {
   font-size: 2.5rem;
-  color: forestgreen;
+  color: #3F7A1A;
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
@@ -179,7 +179,7 @@ p {
 .footer {
   display: flex;
   justify-content: center;
-  background: forestgreen;
+  background: #3F7A1A;
   color: white;
   padding: 25px;
   font-size: 1.8rem;
@@ -197,8 +197,8 @@ body {
 }
 .btn {
   margin: 20px;
-  background-color: yellow;
-  color: forestgreen;
+  background-color: #3F7A1A;
+  color: white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -210,7 +210,7 @@ body {
   transition-duration: 0.5s;
 }
 .btn:hover {
-  background-color: forestgreen;
+  background-color: #3F7A1A;
   color: yellow;
 }
 .thrive p {
@@ -235,4 +235,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+.plantBanner {
+  width: 100%;
+  display: flex;
 }
