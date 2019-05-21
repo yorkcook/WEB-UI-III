@@ -1,6 +1,6 @@
 .button {
-  background-color: black;
-  color: white;
+  background-color: yellow;
+  color: forestgreen;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -140,8 +140,22 @@ table {
   border-spacing: 0;
 }
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: forestgreen;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
@@ -150,6 +164,7 @@ h2 {
   margin: 10px;
   padding-top: 20px;
   margin-left: 100px;
+  margin-bottom: 25px;
 }
 .navigation h1 {
   font-size: 5rem;
@@ -182,8 +197,8 @@ body {
 }
 .btn {
   margin: 20px;
-  background-color: black;
-  color: white;
+  background-color: yellow;
+  color: forestgreen;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -195,6 +210,29 @@ body {
   transition-duration: 0.5s;
 }
 .btn:hover {
-  background-color: yellow;
-  color: forestgreen;
+  background-color: forestgreen;
+  color: yellow;
+}
+.thrive p {
+  display: flex;
+  justify-content: left;
+}
+.thrive .btn {
+  display: flex;
+  justify-content: center;
+}
+.plants p {
+  display: flex;
+  justify-content: left;
+}
+img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.plantImg {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
