@@ -7,22 +7,33 @@
     margin-left: 100px;
     margin-bottom: 25px;
 
-    h1{
+    h1 {
       font-size: 5rem;
-      color: forestgreen;
+      color: @plant;
       margin-bottom: 25px;
-      
-
-
     }
     
     a {
       margin: 20px;
-      color: forestgreen;
-      margin-left: 35px;
+      color: black;
+      margin-left: 90px;
+    }
+  }
+
+  @media @phone {
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;  
+      h1 {
+        font-size: 3rem;
+      }
+      a {
+        margin: 10px;
+      }
+
     }
 
 
-
-  }
-
+ 
+}

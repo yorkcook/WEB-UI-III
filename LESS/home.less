@@ -9,12 +9,12 @@ body {
 }
 
 .btn {
-    margin: 20px;
+    margin: 10px;
     .button ();  
 }
 
 .btn:hover {
-    background-color: #3F7A1A;
+    background-color: @plant;
     color: yellow;
 }
 
@@ -37,20 +37,30 @@ body {
     }
 }
 
-img {
-   width: 28%;
-   margin: 20px 2.5%;
-   border-radius: 20px;
-   height: 100%; 
-}
+
 
 .plantImg {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
+    img {
+        width: 28%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%; 
+     }
 }
 
 .plantBanner {
-    width: 100%;
-    display: flex;
+    display: flex; 
+    
+
+    img {
+        width: 100%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%; 
+     }
+   
 }
