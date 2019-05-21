@@ -1,0 +1,17 @@
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    .border-radius();
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 40%;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
