@@ -13,7 +13,7 @@
 }
 .buttonAbout {
   background-color: #3F7A1A;
-  color: red;
+  color: white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -181,7 +181,7 @@ p {
   flex-direction: column;
   margin: 10px;
   padding-top: 20px;
-  margin-left: 100px;
+  margin-left: 125px;
   margin-bottom: 25px;
 }
 .navigation h1 {
@@ -192,7 +192,7 @@ p {
 .navigation a {
   margin: 20px;
   color: black;
-  margin-left: 90px;
+  margin-left: 50px;
 }
 @media (max-width: 500px) {
   .navigation {
@@ -303,6 +303,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   /*border: 2px solid black;*/
+  border-bottom: 2px dashed red;
   width: 50%;
   padding: 20px;
   margin: 10px;
@@ -315,7 +316,7 @@ img {
 .btnn {
   margin: 10px;
   background-color: #3F7A1A;
-  color: red;
+  color: white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;

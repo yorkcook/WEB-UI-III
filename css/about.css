@@ -84,6 +84,10 @@ h1 {
     font-size: 5rem;
 }
 
+.tester {
+	display: flex;
+	flex-direction: row;
+}
 
 .boxes {
 	display: flex;
