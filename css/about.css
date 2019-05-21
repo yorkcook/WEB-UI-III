@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
+	line-height: 1.4;
 }
 
 body {
@@ -95,7 +95,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 	/*border: 2px solid black;*/
-	border-bottom: 2px dashed black;
+	border-bottom: 2px dashed red;
     width: 37%;
     padding: 20px;
     margin: 10px;
@@ -131,7 +131,3 @@ img {
     
 }
 
-.name {
-	display: flex;
-	justify-content: center;
-}
