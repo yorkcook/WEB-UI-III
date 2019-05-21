@@ -1,6 +1,7 @@
 body {
     width: 800px;
     margin: 0 auto;
+    border: 5px solid yellow;
 
     @media @phone {
         max-width: 500px;
@@ -63,4 +64,26 @@ body {
         height: 100%; 
      }
    
+}
+
+.tester {
+    display: flex;
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    
+    .boxes div {
+        display: flex;
+        flex-wrap: wrap;
+        /*border: 2px solid black;*/
+        border-bottom: 2px dashed black;
+        width: 37%;
+        padding: 20px;
+        margin: 10px;
+      }
+    
+  
 }

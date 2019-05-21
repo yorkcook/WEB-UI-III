@@ -206,6 +206,7 @@ p {
 body {
   width: 800px;
   margin: 0 auto;
+  border: 5px solid yellow;
 }
 @media (max-width: 500px) {
   body {
@@ -262,4 +263,38 @@ body {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+.tester {
+  display: flex;
+}
+.tester .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.tester .boxes div {
+  display: flex;
+  flex-wrap: wrap;
+  /*border: 2px solid black;*/
+  border-bottom: 2px dashed black;
+  width: 37%;
+  padding: 20px;
+  margin: 10px;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.boxes div {
+  display: flex;
+  flex-wrap: wrap;
+  /*border: 2px solid black;*/
+  border-bottom: 2px dashed black;
+  width: 37%;
+  padding: 20px;
+  margin: 10px;
+}
+img {
+  width: 25%;
 }
