@@ -105,17 +105,17 @@ h1 {
     margin: 10px;
   }
 
-  .boxes button {
+  /* .boxes button {
 	  margin-top 20px;
 	  padding: 10px;
 	  background: white;
   }
-
+ */
 
 
 img {
 	width: 500px;
-	length: 500px;
+	height: 500px;
 	padding-bottom: 20px;
 }
 

@@ -18,7 +18,8 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
   font-size: 0.8rem;
   width: 20%;
   -webkit-transition-duration: 0.5s;
@@ -234,6 +235,7 @@ h3 {
 }
 body {
   width: 800px;
+  max-width: 99%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
@@ -327,11 +329,16 @@ p {
   -moz-border-radius: 5px;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
   font-size: 0.8rem;
   width: 20%;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+}
+.btnn a {
+  display: inline-block;
+  justify-content: center;
 }
 .btnn:hover {
   background-color: #3F7A1A;
