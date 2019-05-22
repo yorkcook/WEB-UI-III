@@ -175,6 +175,15 @@ p {
   display: flex;
   justify-content: center;
 }
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Lemon', cursive;
+}
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -219,7 +228,6 @@ p {
 body {
   width: 800px;
   margin: 0 auto;
-  border: 5px solid yellow;
 }
 @media (max-width: 500px) {
   body {
