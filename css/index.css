@@ -200,6 +200,10 @@ h3 {
   margin-left: 125px;
   margin-bottom: 25px;
 }
+.navigation .menu-button {
+  background: #3F7A1A;
+  width: 25px;
+}
 .navigation h1 {
   font-size: 3rem;
   color: #3F7A1A;
@@ -309,10 +313,6 @@ body {
   padding: 20px;
   margin: 10px;
 }
-img {
-  width: 500px;
-  length: 500px;
-}
 h3 {
   margin: 10px;
   font-size: 1rem;
@@ -408,4 +408,32 @@ p {
 .bios .img-container img {
   width: 100px;
   height: 100px;
+}
+.menu-button {
+  left: 20px;
+  cursor: pointer;
+}
+.menu {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 25px;
+  height: 100vh;
+  /* This give the height 100% of the screen or, '100% of View Height' */
+  background-color: #81C784;
+  border: 1px solid #004D40;
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+  /* This set the layer level of the element, it has precendence over initial level of 1*/
+}
+.menu ul li {
+  list-style-type: none;
+  font-size: 32px;
+  padding: 30px 0;
+  text-align: center;
+}
+.menu--open {
+  display: block;
 }
