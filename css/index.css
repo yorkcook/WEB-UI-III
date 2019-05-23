@@ -257,6 +257,9 @@ body {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
+.btn a {
+  color: white;
+}
 .btn:hover {
   background-color: #3F7A1A;
   color: yellow;
