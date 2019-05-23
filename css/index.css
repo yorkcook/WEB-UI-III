@@ -166,7 +166,7 @@ h2 {
   padding-bottom: 15px;
 }
 p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 1.4;
   display: flex;
   justify-content: center;
@@ -293,6 +293,11 @@ body {
   border-radius: 20px;
   height: 100%;
 }
+.topics {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .boxes div {
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +309,6 @@ body {
 img {
   width: 500px;
   length: 500px;
-  padding-bottom: 20px;
 }
 h3 {
   margin: 10px;
