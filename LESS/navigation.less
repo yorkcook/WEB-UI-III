@@ -1,17 +1,13 @@
 .navigation {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     margin: 10px; 
     padding-top: 20px;
-    margin-left: 125px;
     margin-bottom: 25px;
 
-    .menu-button {
-      background: @plant;
-      width: 25px;
-    }
-
+  
     h1 {
       font-size: 3rem;
       color: @plant;
@@ -19,9 +15,10 @@
     }
     
     a {
-      margin: 20px;
-      color: black;
-      margin-left: 50px;
+      margin: 5px;
+      color: @plant;
+      margin-right: 20px;
+      text-decoration: none;
     }
   }
 
