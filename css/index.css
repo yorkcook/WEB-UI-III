@@ -172,6 +172,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 15px;
+  font-style: italic;
 }
 .container {
   max-width: 800px;
@@ -302,6 +303,7 @@ body {
 .plants p {
   display: flex;
   justify-content: left;
+  font-style: italic;
 }
 .plantImg {
   display: flex;
@@ -343,7 +345,8 @@ h3 {
   color: red;
 }
 p {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 .btnn {
   margin: 10px;
