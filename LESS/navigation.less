@@ -1,0 +1,39 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px; 
+    padding-top: 20px;
+    margin-bottom: 25px;
+
+  
+    h1 {
+      font-size: 3rem;
+      color: @plant;
+      margin-bottom: 25px;
+    }
+    
+    a {
+      margin: 5px;
+      color: @plant;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+  }
+
+  @media @phone {
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;  
+      h1 {
+        font-size: 2.2rem;
+      }
+      a {
+        margin: 10px;
+      }
+
+    }
+ 
+}

@@ -1,0 +1,94 @@
+body {
+    width: 800px;
+    max-width: 99%;
+    margin: 0 auto;
+
+    @media @phone {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+.btn {
+    margin: 10px;
+    .button(); 
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media @phone {
+    .btn {
+        margin: 10px;
+        .button(); 
+    
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: .8rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.btn:hover {
+    background-color: @plant;
+    color: yellow;
+}
+
+.thrive {
+   p { 
+    display: flex;
+    justify-content: left;
+   }
+
+   .btn {
+    display: flex;
+    justify-content: center;
+   }
+}
+
+.plants {
+    p {
+      display: flex;
+      justify-content: left;  
+      font-style: italic;
+    }
+}
+
+
+.plantImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    img {
+        width: 28%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%; 
+     }
+}
+
+.plantBanner {
+    display: flex; 
+    
+
+    img {
+        width: 100%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%; 
+     }
+   
+}
+
+.topics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
